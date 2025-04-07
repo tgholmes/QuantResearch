@@ -6,7 +6,7 @@ This repo is dedicated to my personal projects learning, and practicing, prime t
 
 
 ## Data
-
+Ticker data pulled directly from Yahoo Finance due to its range, detail, and intricacy. Experimenting in sample Order Book Data, to understand market data microstructure. 
 
 ## Files
 
