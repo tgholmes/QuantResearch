@@ -10,7 +10,9 @@ Ticker data pulled directly from Yahoo Finance due to its range, detail, and int
 
 ## Files
 
-
+- _QuantFile_: Main file where ticker data is pulled / visualised / analysed
+- _PairsTradingSrat_: Formulating an example trading strategy based on a Pairs methodology, specifically with Z-scores
+- Ticker Files: Files and various results from exploratory data analysis - not much structure on the outputs, instead more of a demonstration of different outputs possible from Yahoo Finance.
 
 ## Methodology and Packages Used
 
@@ -20,15 +22,4 @@ Ticker data pulled directly from Yahoo Finance due to its range, detail, and int
 - Sklearn (Linear Regression)
 - Matplotlib
 - Pandas
-
-
-## Results
-
-
-
-
-## Acknowledgments
-
-
-## Contact
-
+- Yahoo Finance
