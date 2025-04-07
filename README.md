@@ -16,6 +16,10 @@ This repo is dedicated to my personal projects learning, and practicing, prime t
 
 
 - **Packages Used:**
+- NumPy
+- Sklearn (Linear Regression)
+- Matplotlib
+- Pandas
 
 
 ## Results
