@@ -11,6 +11,7 @@ These models lay foundational work for the development of future strategies, inc
 ## Data  
 Price, dividend, and split data are retrieved live using the [Yahoo Finance API](https://pypi.org/project/yfinance/).  
 The framework currently supports configurable ticker symbols and time intervals.
+As of June 2025, Yahoo Finance has begun restricting ticker retrievals majorly, causing rate issues. The outputs of this project were obtained before these came into effect.
 
 - **Tickers Used (Example)**: `['SPY']`
 - **Date Range**: April 1, 2025 – June 10, 2025
@@ -48,6 +49,17 @@ The framework currently supports configurable ticker symbols and time intervals.
 - Generated 500 forward simulations of SPY for a 6-month horizon  
 - Found that empirical return distributions deviate slightly from log-normal assumption  
 - Backtesting module shows qualitative alignment with real-world movement, with variance due to fat tails and event risks
+
+## Example Visualizations
+
+### Moving Averages & Price Plot
+![MA Analysis](SPY_MA_Analysis.png)
+
+### GBM Simulation & CDF
+![GBM Simulation](SPY_GBM_Analysis_with_CDF.png)
+
+### GBM Backtest
+![GBM Backtest](SPY_GBM_Backtest.png)
 
 ## Future Work  
 - Expand to other equity indices and multi-asset classes  
